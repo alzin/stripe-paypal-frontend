@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 
 const CHECKOUT_SESSION_ENDPOINT =
-  "http://localhost:3000/create-checkout-session";
+  "https://comy-api.vercel.app/create-checkout-session";
 
 const useCheckoutSession = () => {
   const createCheckoutSession = useCallback(async () => {
